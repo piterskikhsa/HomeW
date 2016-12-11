@@ -1,0 +1,75 @@
+
+body{
+	padding: 10px;
+}
+section{
+	margin: 0 50px;
+}
+nav{
+	position: relative;
+}
+nav ul li{
+	float: left;
+	display: inline-block;
+}
+nav li a{
+	padding-right: 20px;
+}
+.clear{
+	clear:both;
+}
+.page_title a{
+	position: absolute;
+	right:100px;
+	top: 1px;
+	text-decoration: none;
+}
+.page_title a h1{
+	display: inline-block;
+}
+.page_title a img{
+    padding-left: 10px;
+}
+.product_item ul li{
+	display: inline-block;
+	list-style: none;
+}
+.product_item li a {
+	position: relative;
+}
+.product_item li a p{
+	position: absolute;
+	right: 10px;
+	bottom: 0px;
+}
+.prod_right{
+	float: right;
+	position: relative;
+}
+.prod_price a{
+	position: absolute;
+	right: 20px;
+	bottom: 10px;
+	padding: 10px;
+	text-decoration: none;
+	background-color: #FF6702;
+	color:#fff;
+	font-size: 20px;
+}
+.prod_price strong{
+	position: absolute;
+	left: 20px;
+	bottom: 10px;
+	padding: 10px;
+	color:#FF6702;
+	font-size: 25px;
+}
+.form_left,.form_right{
+	width: 45%;
+}
+.form_right{
+	float: right;
+}
+.form_left{
+	float: left;
+}
